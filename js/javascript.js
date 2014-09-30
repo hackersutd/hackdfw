@@ -8,12 +8,12 @@ $(function(){
   var MESH = {
     width: 1.8,
     height: 1.8,
-    depth: 10,
+    depth: 0.2,
     segments: 16,
     slices: 8,
     xRange: 0.3,
     yRange: 0.3,
-    zRange: 1.0,
+    zRange: .5,
     ambient: '#555555',
     diffuse: '#696969',
     speed: 0.0001
