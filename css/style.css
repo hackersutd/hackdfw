@@ -3,7 +3,7 @@ body {
   margin: 0;
   font: 14pt/1.2em "Titillium Web", Times,Serif;
 }
-header h1, header h2 {
+header h1, header h2, header h3 {
 	margin: 0;
 }
 header.container, header > .container {
@@ -15,9 +15,9 @@ header #body {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	width: 600px;
+	width: 800px;
 	height: 200px;
-	margin: -100px 0 0 -300px;
+	margin: -100px 0 0 -400px;
 	text-align: center;
 	color: #FFF;
 }
@@ -26,11 +26,33 @@ span.thin {
 }
 header h1 {
 	font-size: 6em;
-	line-height: 140px;
+	line-height: 100px;
 }
 header h2 {
-	font-size: 1.8em;
+	font-size: 1.2em;
 	line-height: 30px;
+	font-weight: bold;
+	margin: 5px 0;
+	color: #FFF;
+	width: 150px;
+	background: #FF8500;
+	border-radius: 5px;
+	padding: 5px;
+	position: absolute;
+	right: 11%;
+	bottom: 100%;
+}
+header h2:after {
+	content: "";
+	border: 6px solid #FF8500;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+	position: absolute;
+	left: 50%;
+	top: 100%;
+}
+header h3 {
+	font-size: 1.2em;
+	line-height: 40px;
 	font-weight: 100;
-	color: #E4FF8F;
 }
