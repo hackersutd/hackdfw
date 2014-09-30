@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700,900);
+body {
+  margin: 0;
+  font: 14pt/1.2em "Titillium Web", Times,Serif;
+}
+header h1, header h2 {
+	margin: 0;
+}
+header.container, header > .container {
+  position: absolute;
+  height: 100%;
+  width: 100%;  
+}
+header #body {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 600px;
+	height: 200px;
+	margin: -100px 0 0 -300px;
+	text-align: center;
+	color: #FFF;
+}
+span.thin {
+	font-weight: 100;
+}
+header h1 {
+	font-size: 6em;
+	line-height: 140px;
+}
+header h2 {
+	font-size: 1.8em;
+	line-height: 30px;
+	font-weight: 100;
+	color: #E4FF8F;
+}

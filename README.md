@@ -1,4 +1,4 @@
 hackdfw
 =======
 
-Dallas' next great hackathon! HackDFW!
+Dallas's next great hackathon! HackDFW!
