@@ -166,5 +166,16 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-  color: #ff9f41;
+  color: #fff;
+}
+
+#social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#social li {
+  display: inline;
+  margin: 0px 8px;
 }
