@@ -35,7 +35,7 @@ header {
   text-decoration: underline;
 }
 
-.metropolis {
+#metropolis {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,6 +46,8 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 10;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 
 #logo {
