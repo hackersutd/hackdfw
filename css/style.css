@@ -8,6 +8,7 @@ html, body {
 
 header {
   height: 100%;
+  max-height: 720px;
   width: 100%;
   background-color: #0fb8e9;
 }
@@ -18,10 +19,12 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
+  max-height: 720px;
   background-image: url(/img/buildings.png);
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 10;
 }
 
 #logo {
@@ -29,12 +32,33 @@ header {
 }
 
 #headerContent {
-  z-index: 10;
+  position: absolute;
+  z-index: 100;
+  padding-top: 100px;
+  width: 100%;
+}
+
+#logoSubtext {
+  margin-top: -1%;
+  margin-left: 12%;
 }
 
 .subtitle {
-  margin-left: 12%;
   color: #fff;
   text-transform: uppercase;
   font-size: 22px;
+}
+
+#signupButtons {
+  margin-top: 4%;
+}
+
+#signupButtons a.btn {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 30px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  padding: 20px 30px;
 }
