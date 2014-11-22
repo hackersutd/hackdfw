@@ -82,3 +82,12 @@ header {
   border-radius: 35px;
   padding: 20px 30px;
 }
+
+section {
+  padding: 200px 0px;
+}
+
+#about p {
+  text-align: center;
+  font-size: 40px;
+}
