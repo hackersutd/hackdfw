@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 html, body {
   height: 100%;
   width: 100%;
@@ -11,6 +11,28 @@ header {
   max-height: 720px;
   width: 100%;
   background-color: #0fb8e9;
+}
+
+#nav {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 30px 40px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  z-index: 1000;
+}
+
+#nav a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#nav a:hover {
+  text-decoration: underline;
 }
 
 .metropolis {
