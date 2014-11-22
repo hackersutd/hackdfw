@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
 html, body {
   height: 100%;
   width: 100%;
@@ -112,4 +113,18 @@ section {
 
 #faq {
   background-color: #ff8a18;
+}
+
+section h1 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 90px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+section h3 {
+  font-weight: bold;
+  text-transform: uppercase;
 }
