@@ -128,3 +128,21 @@ section h3 {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.btn-orange {
+  background-color: #ff8a18;
+  border-color: #ff8107;
+}
+
+.btn-orange:hover {
+  background-color: #ff9f41;
+}
+
+.btn-blue {
+  background-color: #175b82;
+  border-color: #0a5682;
+}
+
+.btn-blue:hover {
+  background-color: #1e6b98;
+}
