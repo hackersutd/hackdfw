@@ -1,10 +1,19 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(/fonts/ProximaNova-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(/fonts/ProximaNova-Bold.otf);
+  font-weight: bold;
+}
+
 html, body {
   height: 100%;
   width: 100%;
   margin: 0px;
-  font-family: Montserrat, Verdana, sans-serif;
+  font-family: 'Proxima Nova', Verdana, sans-serif;
 }
 
 header {
