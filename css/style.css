@@ -100,14 +100,18 @@ section {
   padding: 50px 0px;
 }
 
-#about p {
+#about {
   text-align: center;
   font-size: 40px;
+  position: relative;
+  padding: 200px 0px;
 }
 
-#about {
-   position: relative;
-   padding: 200px 0px;
+#about h1 {
+  font-size: 80px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 #about:after {
@@ -127,11 +131,11 @@ section {
   background-color: #ff8a18;
 }
 
-#faq h1 {
+#faq h2 {
   color: #fff;
 }
 
-section h1 {
+section h2 {
   text-align: center;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
