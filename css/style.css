@@ -117,13 +117,16 @@ section {
   background-color: #ff8a18;
 }
 
+#faq h1 {
+  color: #fff;
+}
+
 section h1 {
   text-align: center;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
   font-size: 90px;
   margin-bottom: 50px;
-  color: #fff;
 }
 
 section h3 {
@@ -147,4 +150,21 @@ section h3 {
 
 .btn-blue:hover {
   background-color: #1e6b98;
+}
+
+footer {
+  padding: 50px 0px;
+  background-color: #175b82;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+footer a {
+  color: #ff9f41;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #ff9f41;
 }
