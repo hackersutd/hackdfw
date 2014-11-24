@@ -40,7 +40,7 @@ header {
 header > .fixed {
   height: 100%;
   width: 100%;
-  background-color: #0fb8e9;
+  background-color: #6FD2FF;
   position: fixed;
   z-index: 0;
 }
@@ -70,7 +70,12 @@ header > .fixed {
   border-bottom: 5px solid;
   color: #FFF;
 }
-
+#headerbg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
 #metropolis {
   position: absolute;
   top: 0;
@@ -81,7 +86,6 @@ header > .fixed {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 10;
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
 }
@@ -236,4 +240,31 @@ footer a:hover {
 #social li {
   display: inline;
   margin: 0px 8px;
+}
+@media (max-width: 750px) {
+  #logo {
+    width: 100%;
+  }
+  .subtitle {
+    font-size: 15px;
+  }
+  #headerContent {
+    padding-top: 50%;
+  }
+  #signupButtons {
+    margin-left: 0;
+    text-align: center;
+  }
+  #signupButtons .btn {
+    margin: 10px 0 !important;
+  }
+  #about h1 {
+    font-size: 30px;
+  }
+  #about p {
+    font-size: 20px;
+  }
+  #faq p {
+    margin-bottom: 30px;
+  }
 }
