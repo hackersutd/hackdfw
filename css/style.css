@@ -84,7 +84,7 @@ header > .fixed {
   height: 100%;
   background-image: url(/img/buildings.png);
   background-position: bottom;
-  background-size: contain;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
