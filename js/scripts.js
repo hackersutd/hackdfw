@@ -24,8 +24,9 @@ $(document).ready(function() {
       $('#about h1, #about p').css('opacity', ((st)/(about.offset().top)).toFixed(2));
     }
     if (st <= (about.offset().top + wh)) {
-      $('#headerbg').css('transform','translate3d(0,' + (50-(st/(about.offset().top+wh)*50)) + 'px,0)');
+      $('#headerbg').css('transform','translate3d(0,' + (100-(st/(about.offset().top+wh)*100)) + 'px,0)');
+      $('#headerbg').css('opacity', (1-st/(about.offset().top)*0.5) );
     }
     //$('#metropolis').css('transform','translate3d(0,' + Math.sin(time++)*20 + 'px,0)');
-  }, 10)
+  }, 10);
 });
