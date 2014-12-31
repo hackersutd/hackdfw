@@ -166,12 +166,13 @@ section {
 }
 #faq h2 {
   background: #FF9936;
+  padding: 20px 50px;
 }
 
-
 #sponsors h2 {
-  background: #ccc;
-  color: #F0F0F0;
+  background: #aaa;
+  color: #fff;
+  padding: 20px 50px;
 }
 
 section {
@@ -277,4 +278,8 @@ footer p {
   #faq p {
     margin-bottom: 30px;
   }
+}
+
+#sponsors img {
+  margin: 20px;
 }
