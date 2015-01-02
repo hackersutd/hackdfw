@@ -165,13 +165,12 @@ section {
   color: #fff;
 }
 #faq h2 {
-  background: #FF9936;
-  padding: 20px 50px;
+  border-color: #FF9936;
 }
 
 #sponsors h2 {
-  background: #aaa;
-  color: #fff;
+  border-color: #aaa;
+  color: #aaa;
   padding: 20px 50px;
 }
 
@@ -186,15 +185,24 @@ section h2 {
   font-family: 'Bitter', serif;
   font-weight: bold;
   font-size: 50px;
-  padding: 10px 50px;
-  margin-bottom: 50px;
+  border-bottom: 9px solid;
+  padding: 30px 50px;
+  margin-bottom: 30px;
   display: inline-block;
 }
 
 section h3 {
+  font-size: 30px;
+  font-family: 'Bitter', serif;
   font-weight: bold;
+  margin: 20px 0;
+}
+section h4 {
+  font-weight: bold;
+  font-size: 30px;
   text-transform: uppercase;
 }
+
 .btn {
   border: none;
 }
@@ -279,7 +287,37 @@ footer p {
     margin-bottom: 30px;
   }
 }
+hr {
+  border-bottom: 2px solid #ddd;
+  width: 80%;
+}
 
 #sponsors img {
   margin: 20px;
+  max-height: 100px;
+  filter: none;
+  -webkit-filter: grayscale(100%);
+  -moz-filter:    grayscale(100%);
+  -ms-filter:     grayscale(100%);
+  -o-filter:      grayscale(100%);
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+}
+#sponsors h3 {
+  color: #666;
+  border-bottom: 4px solid;
+  line-height: 60px;
+  display: inline-block;
+  text-align: center;
+}
+#sponsors .filler {
+  margin: 120px 0;
+  color: #ddd;
+}
+#sponsors img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  -moz-filter:    grayscale(0%);
+  -ms-filter:     grayscale(0%);
+  -o-filter:      grayscale(0%);
 }
