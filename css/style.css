@@ -167,6 +167,13 @@ section {
 #faq h2 {
   border-color: #FF9936;
 }
+#faq a {
+  color: #FFF;
+}
+#faq a:hover {
+  color: #FFE9D4;
+  text-decoration: none;
+}
 
 #sponsors h2 {
   border-color: #aaa;
