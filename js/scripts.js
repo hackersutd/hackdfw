@@ -29,4 +29,6 @@ $(document).ready(function() {
     }
     //$('#metropolis').css('transform','translate3d(0,' + Math.sin(time++)*20 + 'px,0)');
   }, 10);
+    
+  $('[data-toggle="tooltip"]').tooltip();
 });

@@ -120,7 +120,7 @@ header > .fixed {
   animation-delay: 0.2s;
 }
 
-#signupButtons a.btn {
+#signupButtons .btn {
   font-size: 22px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -234,6 +234,17 @@ section h4 {
 
 .btn-blue:hover {
   background-color: #1e6b98;
+}
+
+.greyed {
+  opacity: 1 !important;
+  color: #bbb;
+  background: #ddd;
+}
+.greyed:hover {
+  color: #bbb;
+  background: #ddd;
+  cursor: initial;
 }
 
 footer {
