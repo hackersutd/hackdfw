@@ -313,7 +313,6 @@ hr {
 #sponsors img {
   margin: 20px;
   max-height: 100px;
-  max-width: 100%;
   filter: none;
   -webkit-filter: grayscale(100%);
   -moz-filter:    grayscale(100%);
@@ -327,6 +326,7 @@ hr {
 }
 #sponsors .gold img {
   max-height: 120px;
+  max-width: 20%;
   filter: none;
   -webkit-filter: grayscale(100%);
   -moz-filter:    grayscale(100%);
@@ -335,6 +335,7 @@ hr {
 }
 #sponsors .trench img {
   opacity: 0.5;
+  max-width: 15%;
 }
 #sponsors h3 {
   color: #666;
