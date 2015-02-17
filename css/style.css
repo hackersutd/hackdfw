@@ -326,7 +326,7 @@ hr {
 }
 #sponsors .gold img {
   max-height: 120px;
-  max-width: 15%;
+  max-width: 20%;
   filter: none;
   -webkit-filter: grayscale(100%);
   -moz-filter:    grayscale(100%);
