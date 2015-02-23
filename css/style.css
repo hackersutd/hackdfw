@@ -356,3 +356,24 @@ hr {
   -o-filter:      grayscale(0%);
   opacity: 1;
 }
+#judges {
+  background: #31CAF5;
+  color: #FFF;
+}
+#judges h2 {
+  border-color: #65DDFF;
+}
+#judges .judge {
+
+}
+#judges .judge img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #FFF;
+  background: #65DDFF;
+  color: #65DDFF;
+}
+#judges .judge h3 {
+
+}
