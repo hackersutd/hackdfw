@@ -301,6 +301,7 @@ footer p {
   #about p {
     font-size: 20px;
   }
+
   #faq p {
     margin-bottom: 30px;
   }
@@ -356,17 +357,17 @@ hr {
   -o-filter:      grayscale(0%);
   opacity: 1;
 }
-#judges {
-  background: #31CAF5;
+#judges , #speakers {
+  background: #0FB8E8;
   color: #FFF;
 }
-#judges h2 {
+#judges h2 , #speakers h2{
   border-color: #65DDFF;
 }
-#judges .judge {
+#judges .judge,  #speakers .speaker{
 
 }
-#judges .judge img {
+#judges .judge img ,  #speakers .speaker img {
   width: 200px;
   height: 200px;
   border-radius: 100%;
@@ -376,4 +377,11 @@ hr {
 }
 #judges .judge h3 {
 
+}
+
+#speakers h3 {
+  font-weight: bold
+}
+#speakers p {
+  font-size: 12px;
 }
