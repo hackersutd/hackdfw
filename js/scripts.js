@@ -20,13 +20,13 @@ $(document).ready(function() {
       $('#headerContent').css('transform','translate3d(0,' + -(st/5) + 'px,0)');
       $('#headerContent').css('opacity', (1-st/wh*2).toFixed(2));
     }
-    if (st <= (about.scrollTop() + wh)) {
-      $('#about h1, #about p').css('opacity', ((st)/(about.offset().top)).toFixed(2));
-    }
-    if (st <= (about.offset().top + wh)) {
-      $('#headerbg').css('transform','translate3d(0,' + (40-(st/(about.offset().top+wh)*40)) + 'px,0)');
-      $('#headerbg').css('opacity', (1-st/(about.offset().top)*0.5) );
-    }
+    // if (st <= (about.scrollTop() + wh)) {
+    //   $('#about h1, #about p').css('opacity', ((st)/(about.offset().top)).toFixed(2));
+    // }
+    // if (st <= (about.offset().top + wh)) {
+    //   $('#headerbg').css('transform','translate3d(0,' + (40-(st/(about.offset().top+wh)*40)) + 'px,0)');
+    //   $('#headerbg').css('opacity', (1-st/(about.offset().top)*0.5) );
+    // }
     //$('#metropolis').css('transform','translate3d(0,' + Math.sin(time++)*20 + 'px,0)');
   }, 10);
     
