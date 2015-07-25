@@ -1,3 +1,72 @@
+.two {
+  top: -40px;
+  position: relative;
+  display: inline-block;
+  background: #F58A22;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  color: #FFF;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: georgia;
+}
+input.subscribe {
+  background: #FFF;
+  border: none;
+  box-shadow: 0 0 0 10px rgba(255,255,255,0.4);
+  border-radius: 100px;
+  margin-top: 50px;
+  width: 50%;
+  padding: 5px 20px;
+  font-size: 1em;
+  color: #F58A24;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  border: 10px solid #FFF;
+}
+input.subscribe:focus {
+  outline: none;
+  box-shadow: 0 0 0 15px rgba(255,255,255,0.4);
+}
+
+input.subscribe.success {
+  animation-name: fail;
+  animation-duration: 2s;
+}
+input.subscribe.fail {
+  animation-name: success;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+p.success {
+  margin: 20px 0;
+  color: #FFF;
+}
+
+@keyframes fail {
+  0% {
+    border: 10px solid #FFF;
+  }
+  50% {
+    border: 10px solid #F24E4E;
+  }
+  100% {
+    border: 10px solid #FFF;
+  }
+}
+
+@keyframes success {
+
+  0% {
+    border: 10px solid #FFF;
+  }
+  100% {
+    border: 10px solid #6AF24E;
+  }
+}
+
 @font-face {
   font-family: 'Proxima Nova';
   src: url(/fonts/ProximaNova-Regular.otf);
