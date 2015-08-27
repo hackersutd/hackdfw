@@ -13,6 +13,7 @@
   font-family: georgia;
 }
 input.subscribe {
+  display: block;
   background: #FFF;
   border: none;
   box-shadow: 0 0 0 10px rgba(255,255,255,0.4);
@@ -101,7 +102,7 @@ a {
   transition: all 200ms ease-in-out;
 }
 header {
-  height: 100%;
+  height: calc(100% - 75px);
   width: 100%;
   z-index: 0;
   position: relative;
@@ -188,6 +189,12 @@ header > .fixed {
   -o-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
+#signupButtons .submit {
+  margin-top: 20px;
+}
+#signupButtons .submit:hover {
+  box-shadow: none;
+}
 
 #signupButtons .btn {
   font-size: 22px;
@@ -197,6 +204,7 @@ header > .fixed {
   margin-right: 30px;
   border-radius: 100px;
   padding: 10px 30px;
+  color: #FFF;
 }
 
 section {
@@ -318,9 +326,10 @@ section h4 {
 
 footer {
   padding: 20px 0px;
-  background-color: #175b82;
+  background-color: none;
+  text-shadow: 0 0 5px #000;
   text-align: center;
-  color: #bbb;
+  color: #FFF;
   font-size: 14pt;
   position: relative;
 }
@@ -364,11 +373,18 @@ footer p {
   #signupButtons .btn {
     margin: 10px 0 !important;
   }
+  #signupButtons .subscribe {
+    margin: 20px auto;
+    width: 90%;
+  }
   #about h1 {
     font-size: 30px;
   }
   #about p {
     font-size: 20px;
+  }
+  .two {
+    display: none;
   }
 
   #faq p {
