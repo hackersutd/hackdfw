@@ -101,7 +101,7 @@ a {
   transition: all 200ms ease-in-out;
 }
 header {
-  height: 100%;
+  height: calc(100% - 75px);
   width: 100%;
   z-index: 0;
   position: relative;
