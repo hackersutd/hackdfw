@@ -12,6 +12,20 @@
   font-weight: bold;
   font-family: georgia;
 }
+.two a {
+  left: 0;
+}
+.two span, .two a {
+  position: relative;
+  transition: 200ms ease-in-out;
+}
+.two:hover a {
+  left: 6px;
+  text-decoration: none;
+}
+.two:hover span {
+  opacity: 0;
+}
 input.subscribe {
   display: block;
   background: #FFF;
